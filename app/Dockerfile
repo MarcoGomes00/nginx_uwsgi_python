@@ -6,4 +6,4 @@ ADD . /app
 
 RUN pip install uwsgi
 
-CMD ["uwsgi" , "uwsgi-test.ini"]
+CMD ["uwsgi" , "uwsgi.ini"]
